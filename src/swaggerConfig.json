@@ -1,0 +1,24 @@
+{
+  "swagger": {
+    "outputDirectory": "./swagger/",
+    "entryFile": "./controller/*.ts",
+    "outputFormat": "openapi_3",
+    "host": "localhost:3000",
+    "version": "1.0",
+    "name": "Typescript-rest Test API by Serverwizard",
+    "description": "a description",
+    "license": "MIT",
+    "basePath": "/v1",
+    "securityDefinitions": {
+      "api_key": {
+        "type": "apiKey",
+        "name": "access_token",
+        "in": "query",
+        "value": "access_token"
+      }
+    },
+    "ignore": [
+      "**/node_modules/**"
+    ]
+  }
+}

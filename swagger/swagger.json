@@ -1,0 +1,23 @@
+{
+	"basePath": "/v1",
+	"definitions": {},
+	"info": {
+		"description": "a description",
+		"license": {
+			"name": "MIT"
+		},
+		"title": "Typescript-rest Test API by Serverwizard",
+		"version": "1.0"
+	},
+	"paths": {},
+	"swagger": "2.0",
+	"securityDefinitions": {
+		"api_key": {
+			"type": "apiKey",
+			"name": "access_token",
+			"in": "query",
+			"value": "access_token"
+		}
+	},
+	"host": "localhost:3000"
+}
